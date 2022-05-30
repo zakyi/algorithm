@@ -14,14 +14,14 @@ public class HashTest {
     }
 
     public static void test2(){
-        HashMap<Integer, String> integerStringHashMapHashMap = new HashMap<>();
-        integerStringHashMapHashMap.put(1,"zhang");
-        integerStringHashMapHashMap.put(1,"yi");
-        integerStringHashMapHashMap.put(2,"123");
+        HashMap<Integer, String> integerStringHashMap = new HashMap<>();
+        integerStringHashMap.put(1,"zhang");
+        integerStringHashMap.put(1,"yi");
+        integerStringHashMap.put(2,"123");
 
-        System.out.println(integerStringHashMapHashMap.containsKey(1));
-        System.out.println(integerStringHashMapHashMap.get(1));
-        System.out.println(integerStringHashMapHashMap.get(4));
+        System.out.println(integerStringHashMap.containsKey(1));
+        System.out.println(integerStringHashMap.get(1));
+        System.out.println(integerStringHashMap.get(4));
         System.out.println("=====test2=====");
     }
 

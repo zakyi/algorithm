@@ -20,7 +20,7 @@ public class QuickSort {
     }
 
     /**
-     * 递归
+     * 递归，随机选取一个数作为划分值，移动到递归数组最右方
      * @param arr
      * @param L 数组左边界
      * @param R 数组右边界
